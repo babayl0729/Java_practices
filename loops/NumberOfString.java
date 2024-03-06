@@ -29,7 +29,7 @@ public class NumberOfString {
         System.out.println("Enter a string: ");
         String string = reader.readLine();
 
-        System.out.println("Enter how many times you repeat the string.");
+        System.out.println("Enter how many times you want to repeat the string.");
         String num1 = reader.readLine();
         int num2 = Integer.parseInt(num1);
         

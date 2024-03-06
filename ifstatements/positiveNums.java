@@ -5,7 +5,7 @@
  * If there are no positive numbers, the program should display "0".
  * Note that 0 is not a positive or negative number.
  */
-package ifstatements;
+package java_practices.ifstatements;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

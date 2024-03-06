@@ -14,6 +14,7 @@ Multiplication table
 public class TenByTenMultiplicationTable {
     public static void main(String[] args) {
         //write your code here
+        System.out.println("This is a Muliplication Table:");
         for(int x = 1; x <= 10; x++) {
             for(int y = 1; y <= 10; y++) {
                 System.out.print(" " + x*y);

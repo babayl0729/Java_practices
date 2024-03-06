@@ -1,4 +1,4 @@
-package java_practices;
+package java_practices.ifstatements;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -13,11 +13,11 @@ public class MinimumNums {
         //write your code here
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Enter first number: ");
+        System.out.println("Enter the first number: ");
         String num1 = reader.readLine();
         int num2 = Integer.parseInt(num1);
         
-        System.out.println("Enter second number: ");
+        System.out.println("Enter the second number: ");
         String num3 = reader.readLine();
         int num4 = Integer.parseInt(num3);
         int minimum = Math.min(num2,num4);

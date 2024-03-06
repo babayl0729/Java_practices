@@ -1,4 +1,4 @@
-package java_practices;
+package java_practices.ifstatements;
 /* 
 Enter an integer from the keyboard in the range 1 - 999. Display a string description as follows:
 "even single-digit number" - if the number is even and has one digit,

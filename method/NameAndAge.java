@@ -21,7 +21,7 @@ public class NameAndAge {
         num1 = Integer.parseInt(r1);
 
         if(num1 >= 18) {
-            System.out.println("You're " + num1 + " You're going to prison.");
+            System.out.println("You're " + num1 + " You're going to adult facility.");
         }
         else {
             System.out.println("You're " + num1 + " You're going to juvenile facility.");

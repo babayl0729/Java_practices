@@ -24,19 +24,19 @@ public class NameAndAge {
         num = Integer.parseInt(gang);
         
         if(num == 1) {
-            System.out.println(num + " belongs to sector-1.");
+            System.out.println("yeepees belongs to sector-1.");
         }
         else if(num == 2) {
-            System.out.println(num + " belongs to sector-2.");
+            System.out.println("yolos belongs to sector-2.");
         }
         else if(num == 3) {
-            System.out.println(num + " belongs to sector-3.");
+            System.out.println("wannabes belongs to sector-3.");
         }
         else if(num == 4) {
-            System.out.println(num + " belongs to sector-4.");
+            System.out.println("swifties belongs to sector-4.");
         }
         else {
-            System.out.println(num + " belongs to the general sector.");
+            System.out.println("nones belongs to the general sector.");
         }
         return num;
     }
@@ -47,13 +47,13 @@ public class NameAndAge {
         num1 = Integer.parseInt(r1);
 
         if(num1 >= 18) {
-            System.out.println("You're " + num1 + " You're going to adult facility.");
+            System.out.println("You're " + num1 + "yo You're going to adult facility.");
         }
         else if(num1 >= 12) {
-            System.out.println("You're " + num1 + " You're going to juvenile facility.");
+            System.out.println("You're " + num1 + "yo You're going to juvenile facility.");
         }
         else {
-            System.out.println("You're " + num1 + " You're going back to your parents.");
+            System.out.println("You're " + num1 + "yo You're going back to your parents.");
         }
         return num1;
     }

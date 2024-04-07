@@ -6,5 +6,10 @@ public class Zoo {
         animalistic1.activity();
         animalistic1.eating();
         animalistic1.pooping();
+        System.out.println("\n");
+        Dog doggie = new Dog("dog", "pitty", "F", 3, 100);
+        doggie.animalistic();
+        doggie.barking();
+        doggie.eating();
     }
 }

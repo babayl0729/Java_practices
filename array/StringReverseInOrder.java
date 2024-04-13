@@ -32,5 +32,6 @@ public class StringReverseInOrder {
         for (int i = 9; i >= 0; i--) {
             System.out.println(array[i]);
         }
+        System.out.println("Thank you! come again!");
     }
 }
